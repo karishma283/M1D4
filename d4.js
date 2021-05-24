@@ -61,3 +61,19 @@ let totalShoppingCart = 122
 if (totalShoppingCart <= 50)
     totalShoppingCart += 10 
 console.log(totalShoppingCart)
+
+
+/* EXERCISE 7
+You are working on an e-commerce website. Today is Black Friday and everything has a 20% discount at the end of the purchase.
+Modify the previous answer inserting this information and, applying the same rules for the shipping cost, calculate the totalCost.
+*/
+
+let discount= (totalShoppingCart * 20) / 100
+//let discount2 = totalShoppingCart * 0.2
+if(totalShoppingCart>50){
+    totalShoppingCart = totalShoppingCart - discount
+}else{
+    totalShoppingCart +=10
+    totalShoppingCart = totalShoppingCart - discount
+}
+console.log("Total shopping amount:", totalShoppingCart)
