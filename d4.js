@@ -105,3 +105,9 @@ let car5= {
     ...car,
     licensePlate: "RWE123"
 }
+
+/* EXERCISE 9
+Create a new array called carsForRent containing all the cars from the previous exercise.
+*/
+
+let carsForRent=[car,car2,car3,car4,car5]
