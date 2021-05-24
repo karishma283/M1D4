@@ -125,3 +125,11 @@ carsForRent.shift()
 console.log("ex 10:", carsForRent)
 carsForRent.pop()
 console.log("ex 10:", carsForRent)
+
+
+/* EXERCISE 11
+Print in the console the TYPES of the car variable, of its licensePlate and of the its brand properties.
+*/
+
+let Cartype= car.brand + " " + car.model + " " + car.licensePlate
+console.log("ex 11:", Cartype)
