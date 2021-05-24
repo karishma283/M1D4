@@ -77,3 +77,31 @@ if(totalShoppingCart>50){
     totalShoppingCart = totalShoppingCart - discount
 }
 console.log("Total shopping amount:", totalShoppingCart)
+
+
+/* EXERCISE 8
+Create an object representing a car with properties like brand, model, licensePlate.
+After you create the first car, clone it 5 times and change the licensePlate for each cloned car without affecting the original one.
+*/
+
+let car={
+    brand: "BMW",
+    model: "A2016",
+    licensePlate: "XYZ123"
+}
+let car2 = {
+    ...car,
+    licensePlate: "ABC123"
+}
+let car3 = {
+    ...car,
+    licensePlate: "KLG544"
+}
+let car4= {
+    ...car,
+    licensePlate: "HJAS21"
+}
+let car5= {
+    ...car,
+    licensePlate: "RWE123"
+}
