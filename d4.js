@@ -33,3 +33,9 @@ Add to the previously created object a boolean value to rappresent wheter you ha
 details.drivingLicense=true;
 console.log(details)
 
+/* EXERCISE 4
+Remove from the previously created object the age property.
+*/
+
+delete details.age
+console.log(details)
