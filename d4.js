@@ -51,3 +51,13 @@ let second=
     email:"heyhello@gmail.com",
 }
 console.log(details.email,second.email)
+
+/* EXERCISE 6
+You are working on an e-commerce website. In the variable totalShoppingCart you are storing the total amount spent by the current user.
+Currently you have a promotion: if the customer's shopping cart total is more than 50, the user is eligible for free shipping (otherwise it costs 10).
+Write an algorithm that calculates the total cost to charge the user with.
+*/
+let totalShoppingCart = 122
+if (totalShoppingCart <= 50)
+    totalShoppingCart += 10 
+console.log(totalShoppingCart)
