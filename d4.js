@@ -13,3 +13,16 @@ Create an array containing the first 5 positive numbers.
 */
 let positive =[2,4,6,8,10]
 console.log(positive)
+
+/* EXERCISE 2
+Create an object containing your name, surname, email address and age.
+*/
+let details= {
+    name:"karishma",
+    surname:"shaik",
+    email:"itsmekareshma@gmail.com",
+    address:"vetterstrasse",
+    age:25,
+
+}
+console.log(details)
