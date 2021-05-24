@@ -111,3 +111,17 @@ Create a new array called carsForRent containing all the cars from the previous 
 */
 
 let carsForRent=[car,car2,car3,car4,car5]
+
+
+/* EXERCISE 10
+Remove the first and the last car from the carsForRent array.
+*/
+
+carsForRent.shift()
+console.log("ex 10:", carsForRent)
+carsForRent.pop()
+console.log("ex 10:", carsForRent)
+carsForRent.shift()
+console.log("ex 10:", carsForRent)
+carsForRent.pop()
+console.log("ex 10:", carsForRent)
