@@ -144,3 +144,14 @@ Store in a variable totalCars the number of cars present in both carsForSale and
 let carsForSale =[car2,car3,car4]
 let totalCars = carsForRent.length + carsForSale.length
 console.log("ex 12:", totalCars)
+
+
+/* EXERCISE 13
+Print in the console the data from each car in the carsForSale array.
+*/
+
+console.log(carsForSale)
+
+/* WHEN YOU ARE FINISHED
+Send the code on the Eduflow platform. In the next days we'll also learn how to use GIT
+*/
