@@ -39,3 +39,15 @@ Remove from the previously created object the age property.
 
 delete details.age
 console.log(details)
+
+
+/* EXERCISE 5
+Create a second object with name, surname, email address and verify that this object has a different email address than the previous one.
+*/
+let second=
+{
+    name:"Hey",
+    surname:"hello",
+    email:"heyhello@gmail.com",
+}
+console.log(details.email,second.email)
