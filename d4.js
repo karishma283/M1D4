@@ -133,3 +133,14 @@ Print in the console the TYPES of the car variable, of its licensePlate and of t
 
 let Cartype= car.brand + " " + car.model + " " + car.licensePlate
 console.log("ex 11:", Cartype)
+
+
+
+/* EXERCISE 12
+Create a new array called carsForSale and insert 3 cars in it.
+Store in a variable totalCars the number of cars present in both carsForSale and carsForRent arrays.
+*/
+
+let carsForSale =[car2,car3,car4]
+let totalCars = carsForRent.length + carsForSale.length
+console.log("ex 12:", totalCars)
