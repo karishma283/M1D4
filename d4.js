@@ -26,3 +26,10 @@ let details= {
 
 }
 console.log(details)
+
+/* EXERCISE 3
+Add to the previously created object a boolean value to rappresent wheter you have or not a driving license.
+*/
+details.drivingLicense=true;
+console.log(details)
+
